@@ -70,7 +70,7 @@ Key guarantees:
 
 ---
 
-# 2️⃣ Visualization Recommender  
+# 2️⃣ Generate Chart Recommendations
 **Location:** `visualization_recommender/`
 
 Given:
@@ -93,7 +93,7 @@ containing high-level visualization instructions.
 ---
 
 # 3️⃣ Streamlit Auto-Dashboard  
-**Location:** `app/`
+**Location:** `from_text_to_streamlit_app/`
 
 A fully dynamic **Streamlit frontend** turns insights + recommendations into a live dashboard.
 
