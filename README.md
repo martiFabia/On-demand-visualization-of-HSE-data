@@ -110,4 +110,11 @@ Run it with:
 pip install -r requirements.txt
 streamlit run app.py
 ▶️ Running the Full Pipeline
+```
+# 🌟 Credits
+Developed by:
+- Martina Fabiani
+- Alessio Franchini
+- Christian Petruzzella
+- Niccolò Settimelli
 
