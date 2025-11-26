@@ -1,6 +1,6 @@
 # 🚀 Bayer Hackathon — On-demand-visualization-of-HSE-data
 
-This project implements a full **Insight Extraction + Visualization Pipeline** designed for the Bayer Hackathon.  
+This project implements a full **Insight Extraction + Visualization Pipeline** designed for the Bayer Challenge during SinceAI Hackathon in Turku. 
 Given:
 - a **user prompt**, and  
 - a **dataset retrieved by a RAG system**,  
