@@ -1,0 +1,10 @@
+openai
+sentence-transformers
+scikit-learn
+matplotlib
+pandas
+openpyxl
+numpy
+streamlit
+streamlit[charts]
+lida

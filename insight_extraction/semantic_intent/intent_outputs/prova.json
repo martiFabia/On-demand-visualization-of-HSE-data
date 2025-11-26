@@ -1,0 +1,59 @@
+{
+  "raw_question": "Analyze all safety observations from 2024. What was the average processing time for the observations? Do any trends emerge regarding which types of observations have a longer-than-usual processing time?",
+  "metrics": [
+    "avg_processing_time",
+    "trend_over_time"
+  ],
+  "time": {
+    "from": "2024-01-01",
+    "to": "2024-12-31",
+    "year": 2024,
+    "month": null
+  },
+  "group_by": [
+    {
+      "dimension_type": "OBSERVATION_TYPE",
+      "values": [
+        "safety_observation",
+        "near_miss",
+        "incident",
+        "hazard_report",
+        "environmental_observation",
+        "quality_issue",
+        "maintenance_request",
+        "unsafe_condition",
+        "unsafe_act"
+      ]
+    },
+    {
+      "dimension_type": "TIME",
+      "values": [
+        "month",
+        "quarter",
+        "year"
+      ]
+    },
+    {
+      "dimension_type": "DEPARTMENT",
+      "values": [
+        "production",
+        "maintenance",
+        "quality_control",
+        "logistics",
+        "administration",
+        "safety",
+        "engineering",
+        "warehouse",
+        "operations",
+        "facility_management"
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "dimension_type": "OBSERVATION_TYPE",
+      "operator": "=",
+      "value": "safety_observation"
+    }
+  ]
+}
