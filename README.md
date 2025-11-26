@@ -1,4 +1,4 @@
-# 🚀 Bayer Hackathon — Insight Extraction & Auto-Visualization RAG
+# 🚀 Bayer Hackathon — On-demand-visualization-of-HSE-data
 
 This project implements a full **Insight Extraction + Visualization Pipeline** designed for the Bayer Hackathon.  
 Given:
